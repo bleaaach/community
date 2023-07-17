@@ -1,0 +1,22 @@
+2023-07-16 21:46:36.240  INFO 92288 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 1.8.0_131 on LAPTOP-K33M58MI with PID 92288 (started by Ayano in D:\mavenprojects\community)
+2023-07-16 21:46:36.241 DEBUG 92288 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.29
+2023-07-16 21:46:36.241  INFO 92288 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to 1 default profile: "default"
+2023-07-16 21:46:36.787  INFO 104944 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 1.8.0_131 on LAPTOP-K33M58MI with PID 104944 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-16 21:46:36.788 DEBUG 104944 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.29
+2023-07-16 21:46:36.788  INFO 104944 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-07-16 21:46:37.075  INFO 104944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-16 21:46:37.075  INFO 104944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-16 21:46:37.075  INFO 104944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-16 21:46:37.099  INFO 104944 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2023-07-16 21:46:37.100  INFO 104944 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 309 ms
+2023-07-16 21:46:37.220  INFO 104944 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-16 21:46:37.267  INFO 104944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-16 21:46:37.275  INFO 104944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-16 21:46:37.278  INFO 104944 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.535 seconds (JVM running for 1037.257)
+2023-07-16 21:46:37.279  INFO 104944 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-16 21:46:38.247  INFO 92288 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-16 21:46:38.990  INFO 92288 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 3.194 seconds (JVM running for 4.099)
+2023-07-16 21:46:39.254 DEBUG 92288 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2023-07-16 21:46:39.254  INFO 92288 --- [main] com.nowcoder.community.LoggerTests       : info log
+2023-07-16 21:46:39.254  WARN 92288 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2023-07-16 21:46:39.254 ERROR 92288 --- [main] com.nowcoder.community.LoggerTests       : error log
