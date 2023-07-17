@@ -1,0 +1,5 @@
+2023-07-16 21:53:45,028 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 1.8.0_131 on LAPTOP-K33M58MI with PID 101852 (started by Ayano in D:\mavenprojects\community)
+2023-07-16 21:53:45,031 INFO [main] c.n.c.LoggerTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-16 21:53:47,269 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-16 21:53:47,884 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 3.373 seconds (JVM running for 4.468)
+2023-07-16 21:53:48,177 INFO [main] c.n.c.LoggerTests [LoggerTests.java:23] info log
