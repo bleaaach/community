@@ -1,14 +1,17 @@
 package com.nowcoder.community.controller;
 
 import com.nowcoder.community.service.AlphaService;
+import com.nowcoder.community.util.CommunityUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
@@ -115,7 +118,6 @@ public class AlphaController {
 
     //响应json数据（异步请求）
     //java对象->json字符串->js对象
-
     @RequestMapping(path="/emp",method = RequestMethod.GET)
     @ResponseBody
     public Map<String,Object> getEmp(){
@@ -125,6 +127,7 @@ public class AlphaController {
         emp.put("salary",8000.00);
         return emp;
     }
+
     //返回多组员工数据
     @RequestMapping(path="/emps",method = RequestMethod.GET)
     @ResponseBody
@@ -143,5 +146,47 @@ public class AlphaController {
         list.add(emp);
 
         return list;
+    }
+
+    //cookie示例
+    //设置cookie
+    @RequestMapping(path="/cookie/set",method = RequestMethod.GET)
+    @ResponseBody
+    public String setCookie(HttpServletResponse response){
+        //创建cookie
+        Cookie cookie=new Cookie("code", CommunityUtil.generateUUID());
+        //设置cookie生效的范围
+        cookie.setPath("/community/alpha");
+        //设置cookie的生存时间
+        cookie.setMaxAge(60*10);
+        //发送cookie
+        response.addCookie(cookie);
+        return "set cookie";
+    }
+    //获取cookie
+    @RequestMapping(path="/cookie/get",method = RequestMethod.GET)
+    @ResponseBody
+    public String getCookie(@CookieValue("code") String code){
+        System.out.println(code);
+        return "get cookie";
+    }
+
+    //session实例
+    //设置session
+    @RequestMapping(path = "/session/set",method=RequestMethod.GET)
+    @ResponseBody
+    public String SetSession(HttpSession session){
+        session.setAttribute("id",1);
+        session.setAttribute("name","test");
+        return "set session";
+    }
+
+    //获取session
+    @RequestMapping(path = "/session/get",method=RequestMethod.GET)
+    @ResponseBody
+    public String GetSession(HttpSession session){
+        System.out.println(session.getAttribute("id"));
+        System.out.println(session.getAttribute("name"));
+        return "get session";
     }
 }
