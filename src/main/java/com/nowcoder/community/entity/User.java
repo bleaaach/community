@@ -12,6 +12,11 @@ public class User {
     private String password;
     private String salt;
     private String email;
+    private int type;
+    private int status;
+    private String activationCode;
+    private String headerUrl;
+    private Date createTime;
 
     public int getId() {
         return id;
@@ -108,11 +113,5 @@ public class User {
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
-
-    private int type;
-    private int status;
-    private String activationCode;
-    private String headerUrl;
-    private Date createTime;
 }
 
