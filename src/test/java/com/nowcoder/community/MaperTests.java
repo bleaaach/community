@@ -6,6 +6,7 @@ import com.nowcoder.community.dao.UserMapper;
 import com.nowcoder.community.entity.DiscussPost;
 import com.nowcoder.community.entity.LoginTicket;
 import com.nowcoder.community.entity.User;
+import com.nowcoder.community.util.CommunityUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -102,5 +103,11 @@ public class MaperTests {
         loginTicketMapper.updateStatus("abc",1);//表示失效了
         loginTicket=loginTicketMapper.selectByTicket("abc");
         System.out.println(loginTicket);
+    }
+
+    @Test
+    public void test(){
+        userMapper.updatePassword(157, CommunityUtil.md5("1"+userMapper.selectById(157).getSalt()));
+        System.out.println();
     }
 }
