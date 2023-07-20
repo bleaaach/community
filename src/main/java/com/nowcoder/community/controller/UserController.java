@@ -20,6 +20,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Map;
 
 @Controller
 @Slf4j
@@ -88,18 +89,15 @@ public class UserController {
     //更新密码
     @RequestMapping(path = "/updatePassword",method = RequestMethod.POST)
     public String updatePassword(Model model,String oldPassword,String newPassword,String secPassword){
-        //验证原密码是否正确
         User user = hostHolder.getUser();
-        oldPassword=CommunityUtil.md5(oldPassword+user.getSalt());
-        if(!user.getPassword().equals(oldPassword)){
-            model.addAttribute("oldPasswordMsg","密码不正确");
-            return "/site/setting";
-        }else if(!newPassword.equals(secPassword)){
-            model.addAttribute("secPasswordMsg","两次密码不一致");
+        Map<String, Object> map = userService.updatePassword(user.getId(), oldPassword, newPassword);
+        if (map == null || map.isEmpty()) {
+            return "redirect:/logout";
+        } else {
+            model.addAttribute("oldPasswordMsg", map.get("oldPasswordMsg"));
+            model.addAttribute("newPasswordMsg", map.get("newPasswordMsg"));
             return "/site/setting";
         }
-        userService.updatePassword(user.getId(),secPassword);
-        return "redirect:/login";
     }
 
     //更新头像
@@ -124,4 +122,5 @@ public class UserController {
             e.printStackTrace();
         }
     }
+
 }

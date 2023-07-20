@@ -102,8 +102,41 @@ public class UserService implements CommunityConstant {
         context.setVariable("url",url);
         //发送激活码
         String content=templateEngine.process("/mail/activation",context);
-        mailClient.sendMail("bleaaach@qq.com","激活账号",content);
+        mailClient.sendMail(user.getEmail(),"激活账号",content);
         return map;
+    }
+
+
+    /**
+     * 验证码验证
+     * @param email
+     * @return
+     */
+    public Map<String,Object> verification(String email,String verifycode,String code,String password){
+        Map<String, Object> map = new HashMap<>();
+        //根据邮箱查找用户
+        User user = userMapper.selectByEmail(email);
+
+        //验证码和密码的空值处理
+        if(verifycode.isEmpty()){
+            map.put("codeMsg","验证码不能为空");
+            return map;
+        }
+        if(password.isEmpty()){
+            map.put("passwordMsg","密码不能为空");
+            return map;
+        }
+
+        //验证码的校验
+        if(code!=verifycode){
+            map.put("codeMsg","验证码错误");
+            return map;
+        }
+
+        //更新密码
+        password=CommunityUtil.md5(password+user.getSalt());
+        userMapper.updatePassword(user.getId(),password);
+        return null;
     }
 
     /**
@@ -204,9 +237,65 @@ public class UserService implements CommunityConstant {
 
     /**
      * 更新密码
+     * @param userId
+     * @param oldPassword
+     * @param newPassword
+     * @return
      */
-    public int updatePassword(int userId,String password){
-        password=CommunityUtil.md5(password+userMapper.selectById(userId).getSalt());
-        return userMapper.updatePassword(userId,password);
+    public Map<String, Object> updatePassword(int userId,String oldPassword, String newPassword){
+        Map<String, Object> map = new HashMap<>();
+
+        //空值处理
+        if (StringUtils.isNullOrEmpty(oldPassword)) {
+            map.put("oldPasswordMsg", "原密码不能为空!");
+            return map;
+        }
+        if (StringUtils.isNullOrEmpty(newPassword)) {
+            map.put("newPasswordMsg", "新密码不能为空!");
+            return map;
+        }
+
+        //验证原始密码
+        User user = userMapper.selectById(userId);
+        oldPassword = CommunityUtil.md5(oldPassword + user.getSalt());
+        if (!user.getPassword().equals(oldPassword)) {
+            map.put("oldPasswordMsg", "原密码输入有误!");
+            return map;
+        }
+
+        newPassword=CommunityUtil.md5(newPassword+userMapper.selectById(userId).getSalt());
+        userMapper.updatePassword(userId,newPassword);
+        return map;
+    }
+
+    /**
+     * 重置密码
+      */
+    public Map<String, Object> resetPassword(String email, String password) {
+        Map<String, Object> map = new HashMap<>();
+
+        // 空值处理
+        if (org.apache.commons.lang3.StringUtils.isBlank(email)) {
+            map.put("emailMsg", "邮箱不能为空!");
+            return map;
+        }
+        if (org.apache.commons.lang3.StringUtils.isBlank(password)) {
+            map.put("passwordMsg", "密码不能为空!");
+            return map;
+        }
+
+        // 验证邮箱
+        User user = userMapper.selectByEmail(email);
+        if (user == null) {
+            map.put("emailMsg", "该邮箱尚未注册!");
+            return map;
+        }
+
+        // 重置密码
+        password = CommunityUtil.md5(password + user.getSalt());
+        userMapper.updatePassword(user.getId(), password);
+
+        map.put("user", user);
+        return map;
     }
 }

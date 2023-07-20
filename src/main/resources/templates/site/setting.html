@@ -97,7 +97,7 @@
 						</div>
 					</div>
 					<div class="form-group row mt-4">
-						<label for="new-password" class="col-sm-2 col-form-label text-right">新密码:</label>
+						<label for="new-password" class="col-sm-2 col-form-label text-right" >新密码:</label>
 						<div class="col-sm-10">
 							<input type="password" class="form-control" id="new-password" name="newPassword" placeholder="请输入新的密码!" required>
 							<div class="invalid-feedback">
@@ -108,8 +108,8 @@
 					<div class="form-group row mt-4">
 						<label for="confirm-password" class="col-sm-2 col-form-label text-right">确认密码:</label>
 						<div class="col-sm-10">
-							<input type="password" th:class="|form-control ${secPasswordMsg!=null?'is-invalid':''}|" id="confirm-password" name="secPassword" placeholder="再次输入新密码!" required>
-							<div class="invalid-feedback" th:text="${secPasswordMsg}">
+							<input type="password" th:class="|form-control ${newPasswordMsg!=null?'is-invalid':''}|" id="confirm-password" name="secPassword" placeholder="再次输入新密码!" required>
+							<div class="invalid-feedback" th:text="${newPasswordMsg}">
 								两次输入的密码不一致!
 							</div>
 						</div>
