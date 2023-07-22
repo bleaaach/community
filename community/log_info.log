@@ -1,1047 +1,118 @@
-2023-07-21 11:03:42,813 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 11:03:42,824 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 11:03:49,330 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 2568 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 11:03:49,331 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 11:03:49,367 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 11:03:49,368 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 11:03:50,385 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 11:03:50,394 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:03:50,395 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 11:03:50,396 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 11:03:50,504 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 11:03:50,504 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1135 ms
-2023-07-21 11:03:50,977 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 11:03:51,141 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 11:03:51,157 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:03:51,172 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 11:03:51,184 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.328 seconds (JVM running for 3.19)
-2023-07-21 11:04:14,350 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 11:04:14,352 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 11:04:14,395 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 11:04:14,395 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 11:04:15,519 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 11:04:15,525 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:04:15,527 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 11:04:15,527 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 11:04:15,619 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 11:04:15,619 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1223 ms
-2023-07-21 11:04:16,029 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 11:04:16,181 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 11:04:16,196 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:04:16,209 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 11:04:16,219 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.265 seconds (JVM running for 3.054)
-2023-07-21 11:04:37,166 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 75 class path changes (0 additions, 75 deletions, 0 modifications)
-2023-07-21 11:04:37,400 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:04:37,401 INFO [Thread-5] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 11:04:37,409 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:04:37,413 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 11:04:43,045 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 11:04:43,046 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 11:04:43,388 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 11:04:43,389 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 11:04:43,390 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 11:04:43,438 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 11:04:43,438 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 390 ms
-2023-07-21 11:04:43,552 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 11:04:43,699 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 11:04:43,706 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 11:04:46,245 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 11:04:46,246 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 11:04:46,530 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 11:04:46,531 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 11:04:46,531 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 11:04:46,556 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 11:04:46,556 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 307 ms
-2023-07-21 11:04:46,692 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 11:04:46,788 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 11:04:46,809 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 11:04:46,814 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.609 seconds (JVM running for 33.649)
-2023-07-21 11:04:46,819 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 15:57:23,697 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 33 class path changes (0 additions, 33 deletions, 0 modifications)
-2023-07-21 15:57:23,920 INFO [Thread-7] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 15:57:24,144 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:57:24,145 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:57:24,484 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 15:57:24,486 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 15:57:24,487 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 15:57:24,526 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 15:57:24,527 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 379 ms
-2023-07-21 15:57:24,598 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:57:24,667 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 15:57:24,671 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 15:57:27,230 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:57:27,232 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:57:27,828 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 15:57:27,829 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 15:57:27,829 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 15:57:27,880 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 15:57:27,881 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 646 ms
-2023-07-21 15:57:28,083 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:57:28,162 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 15:57:28,174 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 15:57:28,179 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.013 seconds (JVM running for 17595.045)
-2023-07-21 15:57:28,180 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 15:57:34,729 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 30 class path changes (0 additions, 30 deletions, 0 modifications)
-2023-07-21 15:57:34,931 INFO [Thread-17] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 15:57:35,013 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:57:35,013 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:57:35,183 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 15:57:35,184 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 15:57:35,184 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 15:57:35,215 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 15:57:35,215 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 200 ms
-2023-07-21 15:57:35,249 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:57:35,293 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 15:57:35,297 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 15:57:37,629 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:57:37,629 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:57:37,813 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 15:57:37,814 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 15:57:37,814 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 15:57:37,850 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 15:57:37,850 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 219 ms
-2023-07-21 15:57:37,977 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:57:38,053 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 15:57:38,073 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 15:57:38,078 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.472 seconds (JVM running for 17604.944)
-2023-07-21 15:57:38,080 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 15:57:41,629 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 46452 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:57:41,631 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:57:43,852 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:57:44,371 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.158 seconds (JVM running for 4.492)
-2023-07-21 15:59:26,698 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2023-07-21 15:59:26,920 INFO [Thread-24] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 15:59:27,035 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:59:27,036 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:59:27,371 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 15:59:27,372 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 15:59:27,373 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 15:59:27,410 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 15:59:27,410 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 371 ms
-2023-07-21 15:59:27,547 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:59:27,601 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 15:59:27,614 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 15:59:27,618 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.625 seconds (JVM running for 17714.484)
-2023-07-21 15:59:27,619 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 15:59:27,708 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 49772 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 15:59:27,710 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 15:59:29,858 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 15:59:30,405 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.246 seconds (JVM running for 4.343)
-2023-07-21 16:03:47,607 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:03:47,770 INFO [Thread-31] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:03:47,836 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:03:47,837 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:03:48,032 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:03:48,033 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:03:48,033 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:03:48,061 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:03:48,061 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 222 ms
-2023-07-21 16:03:48,162 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:03:48,208 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:03:48,218 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:03:48,222 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.409 seconds (JVM running for 17975.088)
-2023-07-21 16:03:48,224 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:03:49,651 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:03:49,836 INFO [Thread-35] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:03:49,948 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:03:49,949 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:03:50,347 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:03:50,348 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:03:50,348 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:03:50,375 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:03:50,376 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 425 ms
-2023-07-21 16:03:50,507 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:03:50,521 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 12704 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:03:50,524 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:03:50,550 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:03:50,561 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:03:50,564 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.664 seconds (JVM running for 17977.431)
-2023-07-21 16:03:50,566 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:03:52,601 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:03:53,139 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.232 seconds (JVM running for 4.152)
-2023-07-21 16:04:38,341 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:04:38,526 INFO [Thread-39] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:04:38,600 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:04:38,601 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:04:38,874 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:04:38,874 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:04:38,874 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:04:38,908 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:04:38,908 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 306 ms
-2023-07-21 16:04:39,039 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:04:39,093 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:04:39,108 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:04:39,112 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.54 seconds (JVM running for 18025.978)
-2023-07-21 16:04:39,113 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:04:40,239 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 38964 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:04:40,242 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:04:42,304 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:04:42,887 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.261 seconds (JVM running for 4.25)
-2023-07-21 16:05:17,644 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:05:17,811 INFO [Thread-43] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:05:17,899 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:05:17,900 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:05:18,124 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:05:18,126 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:05:18,126 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:05:18,156 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:05:18,156 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 254 ms
-2023-07-21 16:05:18,284 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:05:18,341 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:05:18,354 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:05:18,358 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.481 seconds (JVM running for 18065.224)
-2023-07-21 16:05:18,359 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:05:19,672 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 39840 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:05:19,675 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:05:19,800 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:05:20,008 INFO [Thread-47] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:05:20,096 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:05:20,097 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:05:20,319 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:05:20,320 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:05:20,320 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:05:20,346 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:05:20,346 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 247 ms
-2023-07-21 16:05:20,465 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:05:20,525 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:05:20,538 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:05:20,542 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.474 seconds (JVM running for 18067.408)
-2023-07-21 16:05:20,543 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:05:21,783 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:05:22,332 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.143 seconds (JVM running for 4.069)
-2023-07-21 16:06:46,429 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:06:46,583 INFO [Thread-51] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:06:46,651 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:06:46,651 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:06:46,863 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:06:46,864 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:06:46,864 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:06:46,896 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:06:46,897 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 244 ms
-2023-07-21 16:06:47,032 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:06:47,080 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:06:47,089 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:06:47,093 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.464 seconds (JVM running for 18153.959)
-2023-07-21 16:06:47,094 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:06:48,537 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:06:48,760 INFO [Thread-55] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:06:48,860 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:06:48,861 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:06:49,042 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 33952 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:06:49,044 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:06:49,095 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:06:49,096 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:06:49,096 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:06:49,126 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:06:49,126 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 264 ms
-2023-07-21 16:06:49,269 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:06:49,318 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:06:49,330 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:06:49,334 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.504 seconds (JVM running for 18156.2)
-2023-07-21 16:06:49,335 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:06:51,173 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:06:51,663 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.234 seconds (JVM running for 4.183)
-2023-07-21 16:07:23,735 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:07:23,897 INFO [Thread-59] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:07:23,970 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:07:23,970 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:07:24,179 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:07:24,180 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:07:24,180 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:07:24,210 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:07:24,210 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 239 ms
-2023-07-21 16:07:24,327 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:07:24,378 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:07:24,388 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:07:24,392 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.452 seconds (JVM running for 18191.259)
-2023-07-21 16:07:24,393 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:07:25,834 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:07:26,034 INFO [Thread-63] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:07:26,129 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:07:26,129 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:07:26,204 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 34488 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:07:26,206 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:07:26,364 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:07:26,366 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:07:26,366 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:07:26,396 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:07:26,396 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 265 ms
-2023-07-21 16:07:26,520 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:07:26,571 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:07:26,586 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:07:26,590 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.49 seconds (JVM running for 18193.456)
-2023-07-21 16:07:26,592 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:07:28,260 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:07:28,758 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.096 seconds (JVM running for 3.981)
-2023-07-21 16:08:41,143 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:08:41,300 INFO [Thread-67] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:08:41,389 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:08:41,390 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:08:41,596 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:08:41,597 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:08:41,597 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:08:41,620 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:08:41,620 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 229 ms
-2023-07-21 16:08:41,729 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:08:41,773 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:08:41,783 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:08:41,787 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.423 seconds (JVM running for 18268.653)
-2023-07-21 16:08:41,789 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:08:43,225 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:08:43,265 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 44840 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:08:43,268 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:08:43,414 INFO [Thread-71] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:08:43,500 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:08:43,501 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:08:43,792 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:08:43,793 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:08:43,794 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:08:43,824 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:08:43,825 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 323 ms
-2023-07-21 16:08:43,962 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:08:44,021 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:08:44,032 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:08:44,036 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.563 seconds (JVM running for 18270.902)
-2023-07-21 16:08:44,037 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:08:45,566 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:08:46,173 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.406 seconds (JVM running for 4.303)
-2023-07-21 16:08:55,752 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:08:55,949 INFO [Thread-75] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:08:56,067 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:08:56,068 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:08:56,266 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:08:56,266 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:08:56,267 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:08:56,289 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:08:56,289 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 220 ms
-2023-07-21 16:08:56,396 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:08:56,435 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:08:56,449 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:08:56,452 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.42 seconds (JVM running for 18283.319)
-2023-07-21 16:08:56,453 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:08:57,897 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:08:57,946 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 48028 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:08:57,949 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:08:58,050 INFO [Thread-79] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:08:58,141 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:08:58,141 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:08:58,378 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:08:58,378 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:08:58,378 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:08:58,407 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:08:58,407 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 264 ms
-2023-07-21 16:08:58,520 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:08:58,576 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:08:58,592 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:08:58,594 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.479 seconds (JVM running for 18285.461)
-2023-07-21 16:08:58,595 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:09:00,029 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:09:00,476 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.067 seconds (JVM running for 3.965)
-2023-07-21 16:23:33,626 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:23:33,833 INFO [Thread-83] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:23:33,905 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:23:33,905 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:23:34,130 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:23:34,130 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:23:34,131 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:23:34,158 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:23:34,158 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 251 ms
-2023-07-21 16:23:34,257 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:23:34,298 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:23:34,307 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:23:34,310 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.432 seconds (JVM running for 19161.177)
-2023-07-21 16:23:34,312 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:23:35,750 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:23:35,949 INFO [Thread-87] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:23:36,044 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:23:36,045 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:23:36,344 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:23:36,346 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:23:36,346 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:23:36,380 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:23:36,381 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 334 ms
-2023-07-21 16:23:36,535 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:23:36,597 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:23:36,611 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:23:36,615 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.602 seconds (JVM running for 19163.482)
-2023-07-21 16:23:36,616 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:23:37,151 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 41904 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:23:37,154 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:23:39,614 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:23:40,380 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.781 seconds (JVM running for 5.1)
-2023-07-21 16:23:49,451 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 31864 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:23:49,455 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:23:51,476 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:23:51,986 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.026 seconds (JVM running for 3.93)
-2023-07-21 16:24:12,954 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 16880 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:24:12,957 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:24:15,141 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:24:15,720 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.254 seconds (JVM running for 4.268)
-2023-07-21 16:24:43,935 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:24:44,084 INFO [Thread-91] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:24:44,153 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:24:44,154 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:24:44,350 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:24:44,350 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:24:44,350 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:24:44,386 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:24:44,387 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 232 ms
-2023-07-21 16:24:44,523 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:24:44,572 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:24:44,583 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:24:44,588 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.457 seconds (JVM running for 19231.455)
-2023-07-21 16:24:44,590 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:24:46,029 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:24:46,201 INFO [Thread-95] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:24:46,297 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:24:46,298 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:24:46,527 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:24:46,528 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:24:46,528 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:24:46,560 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:24:46,560 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 261 ms
-2023-07-21 16:24:46,682 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:24:46,739 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:24:46,752 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:24:46,756 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.495 seconds (JVM running for 19233.622)
-2023-07-21 16:24:46,757 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:24:47,707 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 46640 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:24:47,709 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:24:49,728 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:24:50,287 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.079 seconds (JVM running for 4.097)
-2023-07-21 16:25:18,080 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:25:18,247 INFO [Thread-99] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:25:18,322 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:25:18,322 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:25:18,541 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:25:18,541 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:25:18,542 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:25:18,581 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:25:18,581 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 257 ms
-2023-07-21 16:25:18,707 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:25:18,747 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:25:18,761 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:25:18,764 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.466 seconds (JVM running for 19265.63)
-2023-07-21 16:25:18,765 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:25:20,199 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:25:20,409 INFO [Thread-103] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:25:20,513 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:25:20,513 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:25:20,752 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 37048 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:25:20,755 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:25:20,805 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:25:20,806 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:25:20,806 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:25:20,839 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:25:20,839 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 324 ms
-2023-07-21 16:25:20,968 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:25:21,024 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:25:21,042 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:25:21,047 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.567 seconds (JVM running for 19267.913)
-2023-07-21 16:25:21,049 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:25:22,951 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:25:23,468 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.301 seconds (JVM running for 4.235)
-2023-07-21 16:29:20,192 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 49812 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:29:20,195 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:29:22,488 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:29:23,052 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.441 seconds (JVM running for 4.461)
-2023-07-21 16:29:39,389 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 36340 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:29:39,391 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:29:41,530 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:29:41,989 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.133 seconds (JVM running for 4.032)
-2023-07-21 16:29:51,590 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 47728 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:29:51,593 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:29:53,549 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:29:54,041 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 2.957 seconds (JVM running for 3.852)
-2023-07-21 16:39:31,393 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:39:31,552 INFO [Thread-107] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:39:31,612 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:39:31,612 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:39:31,826 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:39:31,827 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:39:31,827 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:39:31,859 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:39:31,859 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 246 ms
-2023-07-21 16:39:31,985 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:39:32,033 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:39:32,043 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:39:32,046 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.456 seconds (JVM running for 20118.912)
-2023-07-21 16:39:32,047 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:39:33,394 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 6136 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:39:33,396 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:39:33,484 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:39:33,682 INFO [Thread-111] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:39:33,771 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:39:33,771 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:39:33,968 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:39:33,969 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:39:33,969 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:39:33,995 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:39:33,995 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 222 ms
-2023-07-21 16:39:34,102 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:39:34,153 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:39:34,165 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:39:34,169 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.424 seconds (JVM running for 20121.035)
-2023-07-21 16:39:34,170 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:39:35,639 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:39:36,187 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.316 seconds (JVM running for 4.294)
-2023-07-21 16:46:36,652 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:46:36,856 INFO [Thread-115] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:46:36,926 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:46:36,926 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:46:37,165 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:46:37,166 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:46:37,166 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:46:37,201 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:46:37,202 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 275 ms
-2023-07-21 16:46:37,307 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:46:37,349 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:46:37,359 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:46:37,363 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.462 seconds (JVM running for 20544.229)
-2023-07-21 16:46:37,364 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:46:38,796 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:46:39,020 INFO [Thread-119] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:46:39,129 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:46:39,129 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:46:39,316 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 38720 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:46:39,318 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:46:39,383 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:46:39,384 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:46:39,384 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:46:39,410 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:46:39,410 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 278 ms
-2023-07-21 16:46:39,526 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:46:39,567 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:46:39,578 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:46:39,581 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.486 seconds (JVM running for 20546.448)
-2023-07-21 16:46:39,582 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:46:41,539 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:46:42,206 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.473 seconds (JVM running for 4.651)
-2023-07-21 16:55:46,411 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2023-07-21 16:55:46,571 INFO [Thread-123] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:55:46,644 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:55:46,644 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:55:46,868 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:55:46,869 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:55:46,869 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:55:46,899 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:55:46,900 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 255 ms
-2023-07-21 16:55:47,025 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:55:47,075 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:55:47,086 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:55:47,090 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.473 seconds (JVM running for 21093.957)
-2023-07-21 16:55:47,092 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:55:48,516 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2023-07-21 16:55:48,702 INFO [Thread-127] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 16:55:48,813 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:55:48,814 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:55:49,096 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 16:55:49,096 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 16:55:49,096 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 16:55:49,123 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 16:55:49,123 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 307 ms
-2023-07-21 16:55:49,269 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:55:49,332 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 16:55:49,346 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 16:55:49,351 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.568 seconds (JVM running for 21096.217)
-2023-07-21 16:55:49,353 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 16:55:50,251 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 12.0.2 on LAPTOP-K33M58MI with PID 43020 (started by Ayano in D:\mavenprojects\community)
-2023-07-21 16:55:50,254 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 16:55:52,454 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 16:55:52,971 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 3.259 seconds (JVM running for 4.306)
-2023-07-21 17:54:01,284 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2023-07-21 17:54:01,478 INFO [Thread-131] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 17:54:01,562 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 17:54:01,562 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 17:54:01,797 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 17:54:01,798 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 17:54:01,798 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 17:54:01,828 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 17:54:01,828 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 263 ms
-2023-07-21 17:54:01,929 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 17:54:01,966 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 17:54:01,987 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 17:54:01,991 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.459 seconds (JVM running for 24588.858)
-2023-07-21 17:54:01,994 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 17:54:03,427 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2023-07-21 17:54:03,598 INFO [Thread-135] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 17:54:03,685 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40732 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 17:54:03,686 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 17:54:03,957 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 17:54:03,958 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 17:54:03,958 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 17:54:03,992 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 17:54:03,992 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 303 ms
-2023-07-21 17:54:04,117 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 17:54:04,164 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 17:54:04,173 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 17:54:04,176 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.518 seconds (JVM running for 24591.042)
-2023-07-21 17:54:04,178 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 18:47:03,790 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 44088 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 18:47:03,793 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 18:47:03,838 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 18:47:03,838 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 18:47:04,906 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 18:47:04,914 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:47:04,916 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 18:47:04,916 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 18:47:05,012 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 18:47:05,013 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1174 ms
-2023-07-21 18:47:05,436 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 18:47:05,582 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 18:47:05,597 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:47:05,611 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 18:47:05,622 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.298 seconds (JVM running for 3.165)
-2023-07-21 18:47:54,115 INFO [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 18:47:54,116 INFO [http-nio-8080-exec-5] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 18:47:54,118 INFO [http-nio-8080-exec-5] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
-2023-07-21 18:48:33,650 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 40128 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 18:48:33,651 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 18:48:33,694 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 18:48:33,695 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 18:48:34,800 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 18:48:34,808 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:48:34,809 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 18:48:34,810 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 18:48:34,911 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 18:48:34,912 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1217 ms
-2023-07-21 18:48:35,399 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 18:48:35,561 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 18:48:35,576 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:48:35,590 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 18:48:35,600 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.372 seconds (JVM running for 3.147)
-2023-07-21 18:49:04,095 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 50080 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 18:49:04,098 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 18:49:04,141 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 18:49:04,141 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 18:49:05,117 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 18:49:05,122 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:49:05,123 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 18:49:05,124 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 18:49:05,201 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 18:49:05,201 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1059 ms
-2023-07-21 18:49:05,592 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 18:49:05,735 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 18:49:05,752 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:49:05,766 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 18:49:05,778 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.085 seconds (JVM running for 2.869)
-2023-07-21 18:49:10,148 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 18:49:10,149 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 18:49:10,150 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 18:50:08,445 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 18:50:08,446 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 18:50:08,487 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 18:50:08,487 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 18:50:09,428 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 18:50:09,434 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:50:09,435 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 18:50:09,435 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 18:50:09,517 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 18:50:09,518 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1030 ms
-2023-07-21 18:50:09,933 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 18:50:10,117 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 18:50:10,133 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 18:50:10,148 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 18:50:10,159 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.144 seconds (JVM running for 2.914)
-2023-07-21 18:50:13,300 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 18:50:13,301 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 18:50:13,302 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:01:07,401 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:01:07,620 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:07,621 INFO [Thread-5] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:01:07,626 INFO [Thread-5] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-07-21 22:01:07,643 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:07,649 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:07,735 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:01:07,736 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:01:08,001 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:01:08,002 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:08,002 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:01:08,002 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:01:08,052 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:01:08,052 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 312 ms
-2023-07-21 22:01:08,099 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:01:08,104 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 22:01:17,855 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:01:17,856 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:01:18,085 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:01:18,086 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:18,087 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:01:18,087 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:01:18,112 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:01:18,113 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 256 ms
-2023-07-21 22:01:18,231 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:01:18,284 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:01:18,293 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:18,296 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:01:18,299 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.484 seconds (JVM running for 11471.085)
-2023-07-21 22:01:18,300 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:01:27,958 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:01:28,219 INFO [Thread-7] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:28,220 INFO [Thread-7] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:01:28,225 INFO [Thread-7] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:28,227 INFO [Thread-7] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:28,315 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:01:28,316 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:01:28,548 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:01:28,549 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:28,549 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:01:28,550 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:01:28,588 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:01:28,590 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 272 ms
-2023-07-21 22:01:28,721 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:01:28,768 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:01:28,776 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:28,779 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:01:28,782 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.504 seconds (JVM running for 11481.569)
-2023-07-21 22:01:28,784 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:01:38,437 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:01:38,593 INFO [Thread-14] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:38,594 INFO [Thread-14] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:01:38,597 INFO [Thread-14] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:38,599 INFO [Thread-14] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:38,676 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:01:38,676 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:01:38,913 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:01:38,914 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:38,915 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:01:38,915 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:01:38,955 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:01:38,956 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 278 ms
-2023-07-21 22:01:39,006 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:01:39,010 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 22:01:42,542 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:01:42,543 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:01:42,765 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:01:42,765 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:42,766 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:01:42,766 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:01:42,793 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:01:42,793 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 249 ms
-2023-07-21 22:01:42,940 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:01:42,987 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:01:42,996 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:01:42,998 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:01:43,005 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.493 seconds (JVM running for 11495.791)
-2023-07-21 22:01:43,007 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:02:17,382 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:02:17,549 INFO [Thread-18] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:17,549 INFO [Thread-18] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:02:17,551 INFO [Thread-18] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:17,554 INFO [Thread-18] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:17,616 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:02:17,616 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:02:17,792 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:02:17,792 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:17,792 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:02:17,792 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:02:17,814 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:02:17,814 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 196 ms
-2023-07-21 22:02:17,849 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:02:17,854 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 22:02:38,899 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:02:38,900 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:02:39,178 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:02:39,178 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:39,178 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:02:39,178 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:02:39,204 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:02:39,204 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 300 ms
-2023-07-21 22:02:39,251 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:02:39,255 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-07-21 22:02:53,070 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:02:53,071 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:02:53,286 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:02:53,287 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:53,287 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:02:53,287 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:02:53,315 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:02:53,316 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 244 ms
-2023-07-21 22:02:53,470 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:02:53,525 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:02:53,537 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:02:53,541 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:02:53,545 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.508 seconds (JVM running for 11566.332)
-2023-07-21 22:02:53,547 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:03:49,645 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:03:49,874 INFO [Thread-25] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:03:49,874 INFO [Thread-25] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:03:49,878 INFO [Thread-25] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:03:49,880 INFO [Thread-25] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:03:49,982 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:03:49,982 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:03:50,252 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:03:50,252 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:03:50,252 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:03:50,252 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:03:50,276 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:03:50,276 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 291 ms
-2023-07-21 22:03:50,393 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:03:50,437 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:03:50,444 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:03:50,447 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:03:50,450 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.509 seconds (JVM running for 11623.237)
-2023-07-21 22:03:50,452 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:04:33,116 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:04:33,276 INFO [Thread-35] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:33,277 INFO [Thread-35] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:04:33,278 INFO [Thread-35] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:33,281 INFO [Thread-35] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:33,338 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:04:33,339 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:04:33,557 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:04:33,558 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:33,558 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:04:33,558 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:04:33,582 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:04:33,582 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 242 ms
-2023-07-21 22:04:33,685 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:04:33,719 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:04:33,725 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:33,728 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:04:33,732 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.415 seconds (JVM running for 11666.518)
-2023-07-21 22:04:33,733 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:04:46,475 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:04:46,649 INFO [Thread-39] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:46,649 INFO [Thread-39] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:04:46,653 INFO [Thread-39] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:46,655 INFO [Thread-39] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:46,717 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:04:46,717 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:04:46,950 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:04:46,951 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:46,951 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:04:46,951 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:04:46,981 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:04:46,981 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 262 ms
-2023-07-21 22:04:47,091 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:04:47,145 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:04:47,153 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:04:47,156 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:04:47,159 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.465 seconds (JVM running for 11679.946)
-2023-07-21 22:04:47,160 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:05:33,320 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:05:33,495 INFO [Thread-43] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:05:33,495 INFO [Thread-43] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:05:33,497 INFO [Thread-43] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:05:33,499 INFO [Thread-43] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:05:33,560 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:05:33,561 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:05:33,757 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:05:33,758 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:05:33,758 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:05:33,758 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:05:33,781 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:05:33,781 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 219 ms
-2023-07-21 22:05:33,876 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:05:33,908 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:05:33,914 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:05:33,916 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:05:33,919 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.382 seconds (JVM running for 11726.705)
-2023-07-21 22:05:33,922 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:06:33,046 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:06:33,231 INFO [Thread-47] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:33,231 INFO [Thread-47] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:06:33,235 INFO [Thread-47] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:33,237 INFO [Thread-47] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:33,295 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:06:33,295 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:06:33,463 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:06:33,463 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:33,463 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:06:33,463 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:06:33,488 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:06:33,488 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 192 ms
-2023-07-21 22:06:33,583 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:06:33,615 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:06:33,621 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:33,625 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:06:33,627 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.354 seconds (JVM running for 11786.414)
-2023-07-21 22:06:33,628 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:06:56,642 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-07-21 22:06:56,832 INFO [Thread-51] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:56,832 INFO [Thread-51] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
-2023-07-21 22:06:56,836 INFO [Thread-51] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:56,838 INFO [Thread-51] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:56,899 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 47108 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:06:56,900 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:06:57,084 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:06:57,085 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:57,085 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:06:57,085 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:06:57,123 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:06:57,124 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 223 ms
-2023-07-21 22:06:57,244 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:06:57,288 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:06:57,295 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:06:57,297 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:06:57,301 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.424 seconds (JVM running for 11810.087)
-2023-07-21 22:06:57,302 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2023-07-21 22:31:58,268 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 53412 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:31:58,270 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:31:58,315 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:31:58,316 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:31:59,387 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:31:59,394 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:31:59,397 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:31:59,397 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:31:59,489 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:31:59,490 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1173 ms
-2023-07-21 22:31:59,928 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:32:00,116 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:32:00,140 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:32:00,159 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:32:00,172 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.368 seconds (JVM running for 3.305)
-2023-07-21 22:32:55,397 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:32:55,398 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:32:55,399 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:32:55,483 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:32:55,622 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:39:24,147 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:39:24,159 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 22:39:27,350 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 46528 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:39:27,352 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:39:27,400 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:39:27,400 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:39:28,371 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:39:28,377 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:39:28,378 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:39:28,378 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:39:28,461 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:39:28,461 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1060 ms
-2023-07-21 22:39:28,853 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:39:29,009 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:39:29,025 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:39:29,040 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:39:29,051 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.177 seconds (JVM running for 2.971)
-2023-07-21 22:42:32,074 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:42:32,076 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:42:32,077 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:42:32,151 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:42:32,253 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:42:36,814 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:42:36,821 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 22:42:41,179 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 38804 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:42:41,181 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:42:41,219 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:42:41,219 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:42:42,231 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:42:42,240 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:42:42,242 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:42:42,242 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:42:42,333 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:42:42,333 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1114 ms
-2023-07-21 22:42:42,702 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:42:42,848 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:42:42,865 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:42:42,880 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:42:42,891 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.356 seconds (JVM running for 3.445)
-2023-07-21 22:43:52,612 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:43:52,613 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:43:52,614 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:43:52,678 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:43:52,773 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:46:21,348 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:46:21,353 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 22:46:24,732 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 32620 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:46:24,734 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:46:24,775 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:46:24,775 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:46:25,702 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:46:25,707 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:46:25,708 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:46:25,708 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:46:25,789 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:46:25,790 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1014 ms
-2023-07-21 22:46:26,187 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:46:26,346 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:46:26,363 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:46:26,377 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:46:26,388 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.078 seconds (JVM running for 2.904)
-2023-07-21 22:46:31,467 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:46:31,468 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:46:31,469 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:46:31,530 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:46:31,614 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:47:10,407 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:47:10,411 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 22:47:13,369 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 38156 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:47:13,370 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:47:13,408 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:47:13,408 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:47:14,416 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:47:14,423 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:47:14,424 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:47:14,424 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:47:14,511 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:47:14,511 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1102 ms
-2023-07-21 22:47:14,945 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:47:15,109 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:47:15,124 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:47:15,142 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:47:15,153 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.493 seconds (JVM running for 3.756)
-2023-07-21 22:47:20,160 INFO [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:47:20,161 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:47:20,162 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:47:20,204 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:47:20,303 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:48:38,558 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:48:38,564 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 22:48:42,193 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 53720 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:48:42,195 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:48:42,239 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:48:42,240 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:48:43,292 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:48:43,297 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:48:43,298 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:48:43,299 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:48:43,383 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:48:43,383 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1143 ms
-2023-07-21 22:48:43,845 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:48:44,007 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:48:44,025 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:48:44,041 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:48:44,053 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.346 seconds (JVM running for 3.477)
-2023-07-21 22:48:47,090 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:48:47,091 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:48:47,092 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:48:47,133 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:48:47,229 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:49:10,877 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:49:10,884 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2023-07-21 22:50:50,966 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 52876 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
-2023-07-21 22:50:50,968 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
-2023-07-21 22:50:51,014 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-21 22:50:51,014 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-21 22:50:52,142 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
-2023-07-21 22:50:52,149 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:50:52,150 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2023-07-21 22:50:52,150 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
-2023-07-21 22:50:52,233 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2023-07-21 22:50:52,233 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1218 ms
-2023-07-21 22:50:52,644 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2023-07-21 22:50:52,806 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
-2023-07-21 22:50:52,822 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2023-07-21 22:50:52,839 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
-2023-07-21 22:50:52,850 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.342 seconds (JVM running for 3.271)
-2023-07-21 22:51:22,319 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-07-21 22:51:22,319 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2023-07-21 22:51:22,321 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2023-07-21 22:51:22,354 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2023-07-21 22:51:22,453 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2023-07-21 22:53:15,319 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2023-07-21 22:53:15,324 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-07-22 09:55:45,589 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 57228 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-22 09:55:45,595 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-22 09:55:45,643 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-22 09:55:45,644 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-22 09:55:46,955 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-07-22 09:55:46,964 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-22 09:55:46,965 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-07-22 09:55:46,965 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-22 09:55:47,059 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-07-22 09:55:47,060 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1415 ms
+2023-07-22 09:55:47,631 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-22 09:55:47,826 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-07-22 09:55:47,844 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-22 09:55:47,862 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-22 09:55:47,875 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.784 seconds (JVM running for 3.731)
+2023-07-22 09:55:50,878 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-22 09:55:50,878 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-07-22 09:55:50,879 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2023-07-22 09:55:50,920 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-07-22 09:55:51,041 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-07-22 09:58:00,180 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-07-22 09:58:00,187 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-07-22 09:58:03,688 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 38868 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-22 09:58:03,690 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-22 09:58:03,747 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-22 09:58:03,747 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-22 09:58:04,815 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-07-22 09:58:04,823 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-22 09:58:04,825 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-07-22 09:58:04,825 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-22 09:58:04,925 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-07-22 09:58:04,925 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1176 ms
+2023-07-22 09:58:05,356 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-22 09:58:05,521 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-07-22 09:58:05,542 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-22 09:58:05,557 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-22 09:58:05,572 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.385 seconds (JVM running for 3.244)
+2023-07-22 09:58:26,318 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-22 09:58:26,319 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-07-22 09:58:26,321 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2023-07-22 09:58:26,358 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-07-22 09:58:26,486 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-07-22 09:59:37,587 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-07-22 09:59:37,591 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-07-22 09:59:41,056 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 50456 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-22 09:59:41,059 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-22 09:59:41,106 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-22 09:59:41,107 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-22 09:59:42,200 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-07-22 09:59:42,206 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-22 09:59:42,207 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-07-22 09:59:42,208 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-22 09:59:42,299 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-07-22 09:59:42,299 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1191 ms
+2023-07-22 09:59:42,710 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-22 09:59:42,872 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-07-22 09:59:42,890 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-22 09:59:42,908 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-22 09:59:42,921 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.428 seconds (JVM running for 3.271)
+2023-07-22 09:59:43,100 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-22 09:59:43,101 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-07-22 09:59:43,102 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2023-07-22 09:59:43,133 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-07-22 09:59:43,222 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-07-22 10:00:17,141 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-07-22 10:00:17,147 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-07-22 10:02:16,869 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 55248 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-22 10:02:16,873 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-22 10:02:16,951 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-22 10:02:16,951 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-22 10:02:18,575 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-07-22 10:02:18,589 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-22 10:02:18,591 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-07-22 10:02:18,592 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-22 10:02:18,708 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-07-22 10:02:18,709 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1756 ms
+2023-07-22 10:02:19,398 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-22 10:02:19,644 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-07-22 10:02:19,664 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-22 10:02:19,682 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-22 10:02:19,700 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 3.554 seconds (JVM running for 4.669)
+2023-07-22 10:02:38,509 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 43016 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-22 10:02:38,510 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-22 10:02:38,551 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-22 10:02:38,552 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-22 10:02:39,633 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-07-22 10:02:39,640 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-22 10:02:39,641 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-07-22 10:02:39,642 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-22 10:02:39,736 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-07-22 10:02:39,737 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1185 ms
+2023-07-22 10:02:40,278 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-22 10:02:40,442 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-07-22 10:02:40,458 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-22 10:02:40,475 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-22 10:02:40,486 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.472 seconds (JVM running for 3.527)
+2023-07-22 10:02:45,078 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 12.0.2 on LAPTOP-K33M58MI with PID 54624 (D:\mavenprojects\community\target\classes started by Ayano in D:\mavenprojects\community)
+2023-07-22 10:02:45,080 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:631] No active profile set, falling back to 1 default profile: "default"
+2023-07-22 10:02:45,136 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-22 10:02:45,136 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-22 10:02:46,460 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-07-22 10:02:46,467 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-22 10:02:46,469 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-07-22 10:02:46,469 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-22 10:02:46,590 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-07-22 10:02:46,593 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1456 ms
+2023-07-22 10:02:47,176 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2023-07-22 10:02:47,429 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-07-22 10:02:47,447 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-07-22 10:02:47,464 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-07-22 10:02:47,476 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 3.026 seconds (JVM running for 4.286)
+2023-07-22 10:02:51,006 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-22 10:02:51,007 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2023-07-22 10:02:51,008 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2023-07-22 10:02:51,050 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-07-22 10:02:51,167 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-07-22 10:03:20,243 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-07-22 10:03:20,251 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

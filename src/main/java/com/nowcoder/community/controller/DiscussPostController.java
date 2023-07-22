@@ -22,6 +22,12 @@ public class DiscussPostController {
     @Autowired
     private HostHolder hostHolder;
 
+    /**
+     * 发布帖子
+     * @param title
+     * @param content
+     * @return
+     */
     @RequestMapping(path = "/add",method = RequestMethod.POST)
     @ResponseBody
     public String addDiscussPost(String title,String content){
