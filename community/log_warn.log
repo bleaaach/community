@@ -38,3 +38,4 @@
 2023-07-23 16:12:48,847 WARN [http-nio-8080-exec-5] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [208] milliseconds.
 2023-07-23 17:24:20,278 WARN [http-nio-8080-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [java.lang.NumberFormatException: For input string: "abc"]
 2023-07-23 17:24:22,638 WARN [http-nio-8080-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [java.lang.NumberFormatException: For input string: "abc"]
+2023-07-23 17:24:58,694 WARN [http-nio-8080-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [java.lang.NumberFormatException: For input string: "abc"]
